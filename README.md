@@ -1,5 +1,8 @@
 # 🎓 Smart Outcome Predictor
 
+<img width="1200" height="520" alt="679098054-2f0a9f1e-daaa-4daa-b4fd-aba6f942eac1" src="https://github.com/user-attachments/assets/22a08776-0809-490d-8ba3-2aea6c4909ef" />
+
+
 This project is built on ensemble learning in supervised machine learning. It covers bagging, boosting, voting and stacking, compares how each family of models combines many learners into one strong predictor, and applies all of them to a real dataset of online learning platform students to predict both course completion and final scores.
 
 ---
@@ -92,6 +95,9 @@ The task is to prepare the data, build bagging models, implement and analyse Ada
 
 ## 🧪 Part B: Dataset Understanding & Preparation
 
+<img width="1200" height="470" alt="679111918-b7450104-e36c-4117-9e1f-2acc3df738ee" src="https://github.com/user-attachments/assets/59f5e2a2-e12b-478b-9171-d172d8856fce" />
+
+
 ### 6. Identify features and target variables for both problems.
 
 ```python
@@ -143,6 +149,9 @@ def prepare(X_train, X_test):
 
 ## 📦 Part C: Bagging (Bootstrap Aggregating)
 
+<img width="1200" height="450" alt="679116947-d6654a7a-4777-4b1c-8630-c0d87d1e231f" src="https://github.com/user-attachments/assets/375873c3-e03f-4461-a534-20715aa4a886" />
+
+
 ### 9. Implement Bagging Classifier for course completion prediction.
 
 ```python
@@ -190,6 +199,9 @@ print("Bagging Accuracy:",     accuracy_score(y_test_class, bagging.predict(X_te
 ---
 
 ## ⚡️ Part D: Boosting Algorithms
+
+<img width="1200" height="470" alt="679143826-6b7f11cc-efc2-400f-b98e-9d59e1d95595" src="https://github.com/user-attachments/assets/b745b6c9-d89e-4412-92d1-998a208f7533" />
+
 
 ## AdaBoost
 
@@ -386,6 +398,9 @@ for name, model in models.items():
 
 ## 💼 Part E: Voting & Stacking Ensembles
 
+<img width="1200" height="470" alt="683371061-0797ce15-e251-4569-8938-e7c3a98cd308" src="https://github.com/user-attachments/assets/05427d5c-ec4b-47c3-91ab-ba8b94d2da5d" />
+
+
 ### 24. Implement Voting Classifier using multiple base classifiers.
 
 ```python
@@ -465,6 +480,9 @@ print("R2 Score:", r2_score(y_test_reg, pred))
 ---
 
 ## 📊 Part F: Model Evaluation & Comparison
+
+<img width="1200" height="470" alt="683372101-91c7faca-2dad-49e7-bbff-9fe80d9ea4c9" src="https://github.com/user-attachments/assets/a532a3b2-199e-4a15-afe6-0adc2a045ba0" />
+
 
 ### 28. Evaluate classification models using Accuracy, Precision, Recall, F1-Score and ROC-AUC.
 
