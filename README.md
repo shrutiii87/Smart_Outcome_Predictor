@@ -53,9 +53,9 @@ The task is to prepare the data, build bagging models, implement and analyse Ada
 
 ## 🎬 Project Demo
 
-<!-- TODO: Add your demo video link
-[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-click%20to%20view-70499A?style=for-the-badge&logo=googledrive&logoColor=white)](YOUR_VIDEO_LINK)
--->
+[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-Add%20Your%20Link-blue?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1oD4nGN8-yN_oPSTUD4Knz48nX6V0lk5o/view?usp=sharing)
+
+📹 Add a link to your project walkthrough video here.
 
 ---
 
@@ -82,6 +82,13 @@ The task is to prepare the data, build bagging models, implement and analyse Ada
 | `attendance_rate` | Float | Attendance rate | Model feature — has missing values |
 | `completion_status` | Integer | 1 = Completed, 0 = Not completed | 🎯 Classification target (62.5% not completed / 37.5% completed) |
 | `final_score` | Float | Final course score (35.2–100.0, mean ≈ 74.8) | 🎯 Regression target |
+
+---
+
+## 🌐 Live Demo
+
+[![Live App](https://img.shields.io/badge/🚀_Live_Demo-Open_App-FF4B4B?style=for-the-badge)](https://messageintelligencesystem-fny7qy4goeazapplv84pxzk.streamlit.app/)
+
 
 ---
 
