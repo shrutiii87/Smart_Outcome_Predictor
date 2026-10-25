@@ -94,13 +94,6 @@ The task is to prepare the data, build bagging models, implement and analyse Ada
 
 ---
 
-## 🌐 Live Demo
-
-[![Live App](https://img.shields.io/badge/🚀_Live_Demo-Open_App-FF4B4B?style=for-the-badge)](https://messageintelligencesystem-fny7qy4goeazapplv84pxzk.streamlit.app/)
-
-
----
-
 ## 🧪 Part B: Dataset Understanding & Preparation
 
 <img width="1200" height="470" alt="679111918-b7450104-e36c-4117-9e1f-2acc3df738ee" src="https://github.com/user-attachments/assets/59f5e2a2-e12b-478b-9171-d172d8856fce" />
