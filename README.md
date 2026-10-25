@@ -1,7 +1,5 @@
 # 🎓 Smart Outcome Predictor
 
----
-
 This project is built on ensemble learning in supervised machine learning. It covers bagging, boosting, voting and stacking, compares how each family of models combines many learners into one strong predictor, and applies all of them to a real dataset of online learning platform students to predict both course completion and final scores.
 
 ---
