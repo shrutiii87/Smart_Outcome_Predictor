@@ -1,45 +1,23 @@
 # 🎓 Smart Outcome Predictor
 
-<!-- TODO: Replace with your banner image, e.g.
-<img width="1200" height="500" src="https://github.com/user-attachments/assets/your-banner.png" />
--->
-
 ---
 
-This project evaluates understanding of **supervised machine learning with ensemble methods** with a focus on how bagging, boosting, voting and stacking combine many models into one strong predictor. It covers the bias–variance trade-off, AdaBoost vs Gradient Boosting vs LightGBM vs XGBoost, and voting/stacking ensembles, and shows how to compare all of them on both a classification and a regression problem before choosing the best models for deployment.
+This project is built on ensemble learning in supervised machine learning. It covers bagging, boosting, voting and stacking, compares how each family of models combines many learners into one strong predictor, and applies all of them to a real dataset of online learning platform students to predict both course completion and final scores.
 
 ---
 
 ## 📄 Problem Statement
 
-You are working with an **online learning platform** that holds a dataset of **5,200 students** and wants a **Smart Outcome Predictor** that can predict, from student demographics, engagement and course attributes:
+You are working with an online learning platform that holds a dataset of 5,200 students. The platform wants a Smart Outcome Predictor that can predict, from student demographics, engagement and course attributes:
 
-1. **Classification** — whether a student will **complete the course** (`completion_status`: 1 = completed, 0 = not completed)
-2. **Regression** — the student's **final score** (`final_score`, 0–100)
+1. Classification — whether a student will complete the course (completion_status: 1 = completed, 0 = not completed)
+2. Regression — the student's final score (final_score, 35.2–100.0)
 
-Your task is to prepare the data, build bagging models, tune and compare AdaBoost, Gradient Boosting, LightGBM and XGBoost, evaluate voting and stacking ensembles, measure everything with accuracy, precision, recall, F1, ROC-AUC, MAE, RMSE and R², and deliver a final deployment recommendation.
-
----
-
-## ♻️ Workflow
-
-<!-- TODO: Replace with your workflow image
-<img width="1200" height="700" src="https://github.com/user-attachments/assets/your-workflow.png" />
--->
-
-Data → Preprocessing → **Bagging** → **Boosting (AdaBoost / GB / LightGBM / XGBoost)** → **Voting & Stacking** → Evaluation → **Deploy the best model per task**
+The task is to prepare the data, build bagging models, implement and analyse AdaBoost, Gradient Boosting, LightGBM and XGBoost, evaluate voting and stacking ensembles, measure everything with accuracy, precision, recall, F1, ROC-AUC, MAE, RMSE and R2, and identify the best performing model for each task.
 
 ---
 
-## 🌐 Live Demo
-
-<!-- TODO: Add your Streamlit / web app link
-[![Live App](https://img.shields.io/badge/🚀_Live_Demo-Open_App-FF4B4B?style=for-the-badge)](YOUR_APP_LINK)
--->
-
----
-
-# 📂 Project Files
+## 📂 Project Files
 
 | 📄 File / Folder | 📌 Description |
 |------------------|----------------|
@@ -56,16 +34,18 @@ Data → Preprocessing → **Bagging** → **Boosting (AdaBoost / GB / LightGBM 
 
 <div>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white"/>
-<img src="https://img.shields.io/badge/LightGBM-2AAA5A?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Baseline-Bagging-059669?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Models-Boosting%20%7C%20Voting%20%7C%20Stacking-16A34A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Python-70499A?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter%20Notebook-white?style=for-the-badge&logo=jupyter&logoColor=70499A"/>
+<img src="https://img.shields.io/badge/Pandas-70499A?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-white?style=for-the-badge&logo=numpy&logoColor=70499A"/>
+<img src="https://img.shields.io/badge/scikit--learn-70499A?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-white?style=for-the-badge&logo=matplotlib&logoColor=70499A"/>
+<img src="https://img.shields.io/badge/XGBoost-70499A?style=for-the-badge&logo=xgboost&logoColor=white"/>
+<img src="https://img.shields.io/badge/LightGBM-white?style=for-the-badge&logo=lightgbm&logoColor=70499A"/>
+<img src="https://img.shields.io/badge/Bagging-70499A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Boosting-white?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Voting-70499A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Stacking-white?style=for-the-badge"/>
 
 </div>
 
@@ -74,9 +54,7 @@ Data → Preprocessing → **Bagging** → **Boosting (AdaBoost / GB / LightGBM 
 ## 🎬 Project Demo
 
 <!-- TODO: Add your demo video link
-[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-click%20to%20view-blue?style=for-the-badge&logo=googledrive&logoColor=white)](YOUR_VIDEO_LINK)
-
-📹 Click on the badge to watch the video.
+[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-click%20to%20view-70499A?style=for-the-badge&logo=googledrive&logoColor=white)](YOUR_VIDEO_LINK)
 -->
 
 ---
@@ -102,250 +80,457 @@ Data → Preprocessing → **Bagging** → **Boosting (AdaBoost / GB / LightGBM 
 | `forum_posts` | Integer | Number of forum posts | Model feature |
 | `avg_quiz_score` | Float | Average quiz score | Model feature — has missing values |
 | `attendance_rate` | Float | Attendance rate | Model feature — has missing values |
-| `completion_status` | Integer | 1 = Completed, 0 = Not completed | 🎯 **Classification target** (imbalanced: ~62% / 38%) |
-| `final_score` | Float | Final course score (35.2–100.0, mean ≈ 74.8) | 🎯 **Regression target** |
+| `completion_status` | Integer | 1 = Completed, 0 = Not completed | 🎯 Classification target (62.5% not completed / 37.5% completed) |
+| `final_score` | Float | Final course score (35.2–100.0, mean ≈ 74.8) | 🎯 Regression target |
 
 ---
 
-## 🧠 Part B : Dataset Understanding & Preparation
+## 🧪 Part B: Dataset Understanding & Preparation
 
-### 6️⃣ Identify features and target variables for both problems
+### 6. Identify features and target variables for both problems.
 
 ```python
-X = df.drop(columns=["student_id", "course_start_date", "completion_status", "final_score"])
+X = df.drop(columns=["student_id", "course_start_date",
+                     "completion_status", "final_score"], errors="ignore")
 y_classification = df["completion_status"]
 y_regression     = df["final_score"]
 ```
 
-**Output:** 15 input features · 2 targets — `completion_status` (classification) and `final_score` (regression)
-
-💡 **Insight:** The dataset contains 15 input features, including age, country, device type, course level, sessions, quiz scores, and attendance rate. This dual-target setup allows the project to predict both course completion and final scores. 🎯
+🎯 Insight: The dataset contains 15 input features, including age, country, device type, course level, sessions, quiz scores, and attendance rate. The classification target is completion_status, while the regression target is final_score. This setup allows the project to predict both course completion and final scores.
 
 ---
 
-### 7️⃣ Perform a train-test split for classification and regression problems
+### 7. Perform a train-test split for classification and regression problems.
 
 ```python
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
+X_train_class, X_test_class, y_train_class, y_test_class = train_test_split(
+    X, y_classification, test_size=0.2, random_state=42)
+
+X_train_reg, X_test_reg, y_train_reg, y_test_reg = train_test_split(
+    X, y_regression, test_size=0.2, random_state=42)
+```
+
+🎯 Insight: Data is split into 80% training (4160 samples) and 20% testing (1040 samples) for both tasks with 15 features. Same random_state=42 ensures consistent and reproducible split, allowing fair evaluation of classification and regression models.
+
+---
+
+### 8. Apply basic preprocessing (scaling/encoding if required).
+
+```python
+def prepare(X_train, X_test):
+    median = X_train.median(numeric_only=True)
+    X_train = X_train.fillna(median)
+    X_test  = X_test.fillna(median)
+
+    X_train = pd.get_dummies(X_train, drop_first=True)
+    X_test  = pd.get_dummies(X_test,  drop_first=True)
+    X_test  = X_test.reindex(columns=X_train.columns, fill_value=0)
+
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_test  = scaler.transform(X_test)
+    return X_train, X_test
+```
+
+🎯 Insight: Total 273 missing values detected - time_spent_hours (112), avg_quiz_score (81), attendance_rate (80) - filled with training set median to prevent leakage. Then one-hot encoding with drop_first=True and column alignment ensures train/test consistency, and StandardScaler is fit only on train data to scale features for stable ensemble learning.
+
+---
+
+## 📦 Part C: Bagging (Bootstrap Aggregating)
+
+### 9. Implement Bagging Classifier for course completion prediction.
+
+```python
+model = BaggingClassifier(n_estimators=50, random_state=42)
+model.fit(X_train_class, y_train_class)
+pred = model.predict(X_test_class)
+bagging_acc = accuracy_score(y_test_class, pred)
+```
+
+🎯 Insight: Accuracy is 0.6987 with n_estimators=50. Bagging reduces variance by aggregating 50 bootstrap models, giving stable prediction for course completion.
+
+---
+
+### 10. Implement Bagging Regressor for final score prediction.
+
+```python
+model = BaggingRegressor(n_estimators=50, random_state=42)
+model.fit(X_train_reg, y_train_reg)
+pred = model.predict(X_test_reg)
+
+print("MAE:", mean_absolute_error(y_test_reg, pred))
+print("RMSE:", np.sqrt(mean_squared_error(y_test_reg, pred)))
+print("R2 Score:", r2_score(y_test_reg, pred))
+```
+
+🎯 Insight: MAE is 8.05, RMSE is 10.08 and R2 is 0.4558. Model shows moderate fit for final_score prediction, RMSE > MAE indicates some larger errors, but bagging helps to generalize better than single regressor.
+
+---
+
+### 11. Compare bagging results with a single base model.
+
+```python
+single = DecisionTreeClassifier(random_state=42)
+single.fit(X_train_class, y_train_class)
+
+bagging = BaggingClassifier(n_estimators=50, random_state=42)
+bagging.fit(X_train_class, y_train_class)
+
+print("Single Model Accuracy:", accuracy_score(y_test_class, single.predict(X_test_class)))
+print("Bagging Accuracy:",     accuracy_score(y_test_class, bagging.predict(X_test_class)))
+```
+
+🎯 Insight: Single Decision Tree gives 0.645 accuracy while Bagging gives 0.698 accuracy. Bagging improves performance by ~5% by reducing overfitting and variance, proving ensemble is more stable and accurate than a single base model.
+
+---
+
+## ⚡️ Part D: Boosting Algorithms
+
+## AdaBoost
+
+### 12. Implement AdaBoost Classifier.
+
+```python
+model = AdaBoostClassifier(random_state=42)
+model.fit(X_train_class, y_train_class)
+pred = model.predict(X_test_class)
+adaboost_acc = accuracy_score(y_test_class, pred)
+```
+
+🎯 Insight: AdaBoost achieves 0.716 accuracy, higher than Bagging. It improves by focusing sequentially on misclassified samples, giving more weight to hard cases, which boosts overall prediction performance.
+
+---
+
+### 13. Implement AdaBoost Regressor.
+
+```python
+model = AdaBoostRegressor(random_state=42)
+model.fit(X_train_reg, y_train_reg)
+pred = model.predict(X_test_reg)
+
+print("MAE:", mean_absolute_error(y_test_reg, pred))
+print("RMSE:", np.sqrt(mean_squared_error(y_test_reg, pred)))
+print("R2 Score:", r2_score(y_test_reg, pred))
+```
+
+🎯 Insight: AdaBoost Regressor gives MAE 8.56, RMSE 10.52 and R2 0.407. R2 is lower than Bagging Regressor, showing AdaBoost focuses more on classification here and is sensitive to outliers in regression, leading to slightly higher error.
+
+---
+
+### 14. Analyze how weak learners improve sequentially.
+
+```python
+model = AdaBoostClassifier(n_estimators=50, random_state=42)
+model.fit(X_train_class, y_train_class)
+
+for i, pred in enumerate(model.staged_predict(X_test_class), start=1):
+    if i in [1, 10, 25, 50]:
+        print("Learners:", i, "Accuracy:", accuracy_score(y_test_class, pred))
+```
+
+🎯 Insight: Accuracy improves from 0.655 with 1 learner to 0.721 with 25 learners, then slightly drops to 0.716 at 50 learners. This shows weak learners improve sequentially by correcting previous errors, but after 25 learners performance saturates, indicating optimal ensemble size.
+
+---
+
+## Gradient Boosting
+
+### 15. Implement Gradient Boosting Classifier.
+
+```python
+model = GradientBoostingClassifier(n_estimators=100, random_state=42)
+model.fit(X_train_class, y_train_class)
+pred = model.predict(X_test_class)
+gb_acc = accuracy_score(y_test_class, pred)
+```
+
+🎯 Insight: Gradient Boosting Classifier gives accuracy 0.723, which is higher than Bagging and AdaBoost. It improves by building trees sequentially on residual errors, giving better generalization and highest accuracy so far for classification.
+
+---
+
+### 16. Implement Gradient Boosting Regressor.
+
+```python
+model = GradientBoostingRegressor(n_estimators=100, random_state=42)
+model.fit(X_train_reg, y_train_reg)
+pred = model.predict(X_test_reg)
+
+print("MAE:", mean_absolute_error(y_test_reg, pred))
+print("RMSE:", np.sqrt(mean_squared_error(y_test_reg, pred)))
+print("R2 Score:", r2_score(y_test_reg, pred))
+```
+
+🎯 Insight: Gradient Boosting Regressor gives MAE 7.85, RMSE 9.80 and R2 0.485, which is better than both Bagging and AdaBoost Regressor. It reduces errors by sequentially learning from residuals, giving lowest error and highest R2 so far for final score prediction.
+
+---
+
+### 17. Analyze learning rate and number of estimators.
+
+```python
+for rate in [0.01, 0.1, 0.2]:
+    model = GradientBoostingClassifier(
+        learning_rate=rate, n_estimators=100, random_state=42)
+    model.fit(X_train_class, y_train_class)
+    print("Learning Rate:", rate, "Accuracy:", accuracy_score(y_test_class, model.predict(X_test_class)))
+
+for n in [50, 100, 150]:
+    model = GradientBoostingClassifier(
+        learning_rate=0.1, n_estimators=n, random_state=42)
+    model.fit(X_train_class, y_train_class)
+    print("Estimators:", n, "Accuracy:", accuracy_score(y_test_class, model.predict(X_test_class)))
+```
+
+🎯 Insight: Best learning rate is 0.1 with accuracy 0.723, lower rate 0.01 learns too slowly and higher rate 0.2 causes overshooting. For estimators, 100 gives highest accuracy 0.723, 50 is underfitting and 150 shows slight overfitting, so learning rate 0.1 and 100 estimators is the optimal balance.
+
+---
+
+## Light Gradient Boosting
+
+### 18. Implement LightGBM Classifier.
+
+```python
+model = LGBMClassifier(n_estimators=100, random_state=42, verbosity=-1)
+model.fit(X_train_class, y_train_class)
+pred = model.predict(X_test_class)
+lgbm_acc = accuracy_score(y_test_class, pred)
+```
+
+🎯 Insight: LightGBM Classifier gives accuracy 0.711, slightly lower than Gradient Boosting. It uses leaf-wise growth which is faster and efficient, but in this dataset it generalizes a bit less than standard gradient boosting.
+
+---
+
+### 19. Implement LightGBM Regressor.
+
+```python
+model = LGBMRegressor(n_estimators=100, random_state=42, verbosity=-1)
+model.fit(X_train_reg, y_train_reg)
+pred = model.predict(X_test_reg)
+
+print("MAE:", mean_absolute_error(y_test_reg, pred))
+print("RMSE:", np.sqrt(mean_squared_error(y_test_reg, pred)))
+print("R2 Score:", r2_score(y_test_reg, pred))
+```
+
+🎯 Insight: LightGBM Regressor gives MAE 8.02, RMSE 9.99 and R2 0.464, which is better than AdaBoost but slightly lower than Gradient Boosting. It shows fast and balanced performance with moderate generalization for final score prediction.
+
+---
+
+### 20. Analyze performance and training efficiency.
+
+```python
+start = time.time()
+model.fit(X_train_class, y_train_class)
+end = time.time()
+
+print("Accuracy:", accuracy_score(y_test_class, model.predict(X_test_class)))
+print("Training Time:", round(end - start, 2), "seconds")
+```
+
+🎯 Insight: LightGBM Classifier achieves accuracy 0.711 with training time of only 0.47 seconds, showing high training efficiency. It gives good accuracy with very fast training due to leaf-wise growth and histogram based splitting, making it suitable for large datasets.
+
+---
+
+## XGBoost
+
+### 21. Implement XGBoost Classifier.
+
+```python
+model = XGBClassifier(n_estimators=100, random_state=42, eval_metric="logloss")
+model.fit(X_train_class, y_train_class)
+pred = model.predict(X_test_class)
+xgb_acc = accuracy_score(y_test_class, pred)
+```
+
+🎯 Insight: XGBoost Classifier gives accuracy 0.680, which is lower than Gradient Boosting and LightGBM for this dataset. Despite its regularized boosting and high performance on large datasets, it shows slight underperformance here, indicating need for hyperparameter tuning.
+
+---
+
+### 22. Implement XGBoost Regressor.
+
+```python
+model = XGBRegressor(n_estimators=100, random_state=42)
+model.fit(X_train_reg, y_train_reg)
+pred = model.predict(X_test_reg)
+
+print("MAE:", mean_absolute_error(y_test_reg, pred))
+print("RMSE:", np.sqrt(mean_squared_error(y_test_reg, pred)))
+print("R2 Score:", r2_score(y_test_reg, pred))
+```
+
+🎯 Insight: XGBoost Regressor gives MAE 8.53, RMSE 10.67 and R2 0.389, which is lower than Gradient Boosting and LightGBM Regressor. It shows moderate performance for final score prediction with higher error, indicating it needs tuning of learning rate and depth for this regression task.
+
+---
+
+### 23. Compare performance and robustness with other boosting models.
+
+```python
+models = {
+    "AdaBoost": AdaBoostClassifier(random_state=42),
+    "Gradient Boosting": GradientBoostingClassifier(random_state=42),
+    "LightGBM": LGBMClassifier(random_state=42, verbosity=-1),
+    "XGBoost": XGBClassifier(random_state=42, eval_metric="logloss")
+}
+
+for name, model in models.items():
+    model.fit(X_train_class, y_train_class)
+    print(name, "Accuracy:", accuracy_score(y_test_class, model.predict(X_test_class)))
+```
+
+🎯 Insight: Comparison shows Gradient Boosting gives highest accuracy 0.723, followed by AdaBoost 0.716, LightGBM 0.711 and XGBoost 0.680. This shows Gradient Boosting is most robust for classification here, while XGBoost underperforms without tuning, and LightGBM gives balanced speed and accuracy.
+
+---
+
+## 💼 Part E: Voting & Stacking Ensembles
+
+### 24. Implement Voting Classifier using multiple base classifiers.
+
+```python
+model = VotingClassifier(
+    estimators=[
+        ("dt", DecisionTreeClassifier(random_state=42)),
+        ("rf", RandomForestClassifier(n_estimators=50, random_state=42)),
+        ("lr", LogisticRegression(max_iter=1000))
+    ],
+    voting="hard"
 )
+model.fit(X_train_class, y_train_class)
+pred = model.predict(X_test_class)
+voting_acc = accuracy_score(y_test_class, pred)
 ```
 
-**Output:** Training data (4,160, 15) · Testing data (1,040, 15) for both tasks
-
-💡 **Insight:** Data is split 80/20 for both tasks with the same `random_state=42`, ensuring a consistent and reproducible split that allows fair evaluation of classification and regression models. 🔀
+🎯 Insight: Voting Classifier with DT, Random Forest and Logistic Regression gives accuracy 0.731, higher than individual boosting models. Hard voting combines diverse base learners and reduces individual model bias, giving improved and more robust classification performance.
 
 ---
 
-### 8️⃣ Apply basic preprocessing (scaling/encoding where required)
+### 25. Compare Hard Voting vs Soft Voting.
 
 ```python
-median = X_train.median(numeric_only=True)
-X_train = X_train.fillna(median);  X_test = X_test.fillna(median)
+hard = VotingClassifier(estimators=[...], voting="hard")
+soft = VotingClassifier(estimators=[...], voting="soft")
 
-X_train = pd.get_dummies(X_train, drop_first=True)
-X_test  = pd.get_dummies(X_test,  drop_first=True).reindex(columns=X_train.columns, fill_value=0)
+hard.fit(X_train_class, y_train_class)
+soft.fit(X_train_class, y_train_class)
 
-scaler = StandardScaler()
-X_train = scaler.fit_transform(X_train);  X_test = scaler.transform(X_test)
+print("Hard Voting Accuracy:", accuracy_score(y_test_class, hard.predict(X_test_class)))
+print("Soft Voting Accuracy:", accuracy_score(y_test_class, soft.predict(X_test_class)))
 ```
 
-**Output:** 273 missing values filled — `time_spent_hours` (112), `avg_quiz_score` (81), `attendance_rate` (80)
-
-💡 **Insight:** Missing values are filled with the **training set median** to prevent leakage. One-hot encoding with `drop_first=True` plus column alignment keeps train/test consistent, and `StandardScaler` is fit only on training data for stable ensemble learning. 📐
+🎯 Insight: Hard Voting gives accuracy 0.731 while Soft Voting gives 0.678, showing hard voting performs better here. Hard voting uses majority class labels which works well when base models are confident, while soft voting averages probabilities and can be affected by poorly calibrated probabilities of base models in this dataset.
 
 ---
 
-## 📦 Part C : Bagging (Bootstrap Aggregating)
-
-### 9️⃣ Implement Bagging Classifier for course completion prediction
+### 26. Implement Stacking Classifier with a meta-learner.
 
 ```python
-bagging_clf = BaggingClassifier(n_estimators=50, random_state=42)
-bagging_clf.fit(X_train_class, y_train_class)
-y_pred = bagging_clf.predict(X_test_class)
+model = StackingClassifier(
+    estimators=[
+        ("dt", DecisionTreeClassifier(random_state=42)),
+        ("rf", RandomForestClassifier(n_estimators=50, random_state=42))
+    ],
+    final_estimator=LogisticRegression(max_iter=1000)
+)
+model.fit(X_train_class, y_train_class)
+pred = model.predict(X_test_class)
+stacking_acc = accuracy_score(y_test_class, pred)
 ```
 
-**Output:** Accuracy = **0.699**
-
-💡 **Insight:** Bagging reduces variance by aggregating 50 bootstrap models, giving a stable prediction for course completion. 🎯
+🎯 Insight: Stacking Classifier with DT and Random Forest as base learners and Logistic Regression as meta-learner gives accuracy 0.708. It is slightly lower than Voting hard 0.731, showing that meta-learner could not combine predictions as effectively as simple majority voting for this dataset, but still provides robust generalization by learning from base model outputs.
 
 ---
 
-### 🔟 Implement Bagging Regressor for final score prediction
+### 27. Implement Stacking Regressor for score prediction.
 
-**Output:** MAE 8.05 · RMSE 10.08 · **R² 0.456**
+```python
+model = StackingRegressor(
+    estimators=[
+        ("dt", DecisionTreeRegressor(random_state=42)),
+        ("rf", RandomForestRegressor(n_estimators=50, random_state=42))
+    ],
+    final_estimator=LinearRegression()
+)
+model.fit(X_train_reg, y_train_reg)
+pred = model.predict(X_test_reg)
 
-💡 **Insight:** The model shows a moderate fit for `final_score`. RMSE > MAE indicates some larger errors, but bagging generalises better than a single regressor. 📊
+print("MAE:", mean_absolute_error(y_test_reg, pred))
+print("RMSE:", np.sqrt(mean_squared_error(y_test_reg, pred)))
+print("R2 Score:", r2_score(y_test_reg, pred))
+```
 
----
-
-### 1️⃣1️⃣ Compare bagging results with a single base model
-
-| Model | Accuracy |
-|-------|----------|
-| Single Decision Tree | 0.645 |
-| Bagging (50 trees) | **0.699** |
-
-💡 **Insight:** Bagging improves performance by ~5 points by reducing overfitting and variance, proving the ensemble is more stable and accurate than a single base model. 📈
-
----
-
-## ⚡️ Part D : Boosting Algorithms
-
-### 1️⃣2️⃣–1️⃣3️⃣ AdaBoost Classifier & Regressor
-
-**Output:** Accuracy **0.716** · MAE 8.56 · RMSE 10.52 · R² 0.407
-
-💡 **Insight:** AdaBoost beats Bagging on classification by focusing sequentially on misclassified samples, but in regression it is sensitive to outliers and lands below Bagging. ⚡
+🎯 Insight: Stacking Regressor with DT and Random Forest as base learners and Linear Regression as meta-learner gives MAE 8.09, RMSE 10.12 and R2 0.451. Performance is similar to Gradient Boosting Regressor, showing stacking improves generalization for regression by combining base predictions through meta-learner, but does not significantly outperform single strong regressors for score prediction.
 
 ---
 
-### 1️⃣4️⃣ Analyze how weak learners improve sequentially
+## 📊 Part F: Model Evaluation & Comparison
 
-| # Learners | 1 | 25 | 50 |
-|------------|-----|------|------|
-| Accuracy | 0.655 | **0.721** | 0.716 |
+### 28. Evaluate classification models using Accuracy, Precision, Recall, F1-Score and ROC-AUC.
 
-💡 **Insight:** Accuracy improves as learners correct previous errors, but saturates around 25 learners — the optimal ensemble size before slight overfitting. 📈
+```python
+model = RandomForestClassifier(n_estimators=100, random_state=42)
+model.fit(X_train_class, y_train_class)
+pred = model.predict(X_test_class)
+prob = model.predict_proba(X_test_class)[:, 1]
 
----
+print("Accuracy:",  accuracy_score(y_test_class, pred))
+print("Precision:", precision_score(y_test_class, pred, zero_division=0))
+print("Recall:",    recall_score(y_test_class, pred, zero_division=0))
+print("F1-Score:",  f1_score(y_test_class, pred, zero_division=0))
+print("ROC-AUC:",   roc_auc_score(y_test_class, prob))
+```
 
-### 1️⃣5️⃣–1️⃣6️⃣ Gradient Boosting Classifier & Regressor
-
-**Output:** Accuracy **0.723** · MAE 7.85 · RMSE 9.81 · **R² 0.485**
-
-💡 **Insight:** Gradient Boosting is the best model in both tasks — it builds trees sequentially on residual errors, giving the lowest errors and the highest R² for score prediction. 🏆
-
----
-
-### 1️⃣7️⃣ Analyze learning rate and number of estimators
-
-| Setting | Accuracy |
-|---------|----------|
-| learning rate 0.01 | 0.711 |
-| **learning rate 0.1** | **0.723** |
-| learning rate 0.2 | 0.712 |
-| 50 estimators | 0.717 |
-| **100 estimators** | **0.723** |
-| 150 estimators | 0.719 |
-
-💡 **Insight:** Learning rate 0.1 with 100 estimators is the optimal balance — a lower rate learns too slowly, a higher rate overshoots, and 150 estimators slightly overfits. ⚖️
+🎯 Insight: Random Forest Classifier with full evaluation gives Accuracy 0.714, Precision 0.654, Recall 0.516, F1-Score 0.577 and ROC-AUC 0.761. High precision with moderate recall shows model is good at predicting positive class correctly but misses some positives. ROC-AUC 0.76 indicates good overall discriminative ability, and F1 score balances precision and recall for final assessment.
 
 ---
 
-### 1️⃣8️⃣–2️⃣0️⃣ LightGBM Classifier & Regressor + training efficiency
+### 29. Evaluate regression models using MAE, RMSE and R2 Score.
 
-**Output:** Accuracy 0.711 (trained in **0.47 s**) · MAE 8.02 · RMSE 9.99 · R² 0.464
+```python
+model = RandomForestRegressor(n_estimators=100, random_state=42)
+model.fit(X_train_reg, y_train_reg)
+pred = model.predict(X_test_reg)
 
-💡 **Insight:** LightGBM's leaf-wise growth and histogram splitting make it very fast, and it generalises almost as well as standard Gradient Boosting — a great speed/accuracy trade-off for large datasets. ⚙️
+print("MAE:", mean_absolute_error(y_test_reg, pred))
+print("RMSE:", np.sqrt(mean_squared_error(y_test_reg, pred)))
+print("R2 Score:", r2_score(y_test_reg, pred))
+```
 
----
-
-### 2️⃣1️⃣–2️⃣3️⃣ XGBoost Classifier & Regressor + robustness comparison
-
-**Output:** Accuracy 0.680 · MAE 8.53 · RMSE 10.67 · R² 0.389
-
-💡 **Insight:** With default settings XGBoost underperforms here (lowest of the four boosters in both tasks), showing that even strong algorithms need hyperparameter tuning per dataset. 📉
-
----
-
-## 💼 Part E : Voting & Stacking Ensembles
-
-### 2️⃣4️⃣–2️⃣5️⃣ Voting Classifier (Decision Tree + Random Forest + Logistic Regression) and Hard vs Soft Voting
-
-| Voting type | Accuracy |
-|-------------|----------|
-| **Hard voting** | **0.732** |
-| Soft voting | 0.678 |
-
-💡 **Insight:** Hard voting combines diverse base learners by majority vote and is the **best classification result in the notebook**. Soft voting is dragged down by poorly calibrated base-model probabilities. 🗳️
+🎯 Insight: Random Forest Regressor gives MAE 7.99, RMSE 10.00 and R2 0.463, which is one of the best among regressors for score prediction. Lower MAE and RMSE with higher R2 shows strong generalization and ability to capture non-linear patterns in student data, making it more reliable than linear models for final score prediction.
 
 ---
 
-### 2️⃣6️⃣–2️⃣7️⃣ Stacking Classifier & Regressor (meta-learner)
+### 30. Compare all ensemble techniques and identify the best performing model for each task.
 
-**Output:** Stacking Classifier accuracy **0.708** · Stacking Regressor MAE 8.09 · RMSE 10.12 · R² 0.451
+```python
+class_results = {
+    "Bagging": bagging_acc, "AdaBoost": adaboost_acc,
+    "Gradient Boosting": gb_acc, "LightGBM": lgbm_acc,
+    "XGBoost": xgb_acc, "Voting": voting_acc,
+    "Stacking": stacking_acc, "Random Forest": rf_acc
+}
+best_class = max(class_results, key=class_results.get)
 
-💡 **Insight:** A meta-learner (Logistic Regression for classification, Linear Regression for regression) learns how much to trust each base model, but it did not beat simple majority voting for classification or single strong regressors for score prediction here. 🧩
+reg_results = {
+    "Bagging": bagging_r2, "AdaBoost": adaboost_r2,
+    "Gradient Boosting": gb_r2, "LightGBM": lgbm_r2,
+    "XGBoost": xgb_r2, "Stacking": stacking_r2,
+    "Random Forest": rf_r2
+}
+best_reg = max(reg_results, key=reg_results.get)
+```
 
----
-
-## 📊 Part F : Model Evaluation & Comparison
-
-### 2️⃣8️⃣ Evaluate classification models with Accuracy, Precision, Recall, F1 and ROC-AUC
-
-| Metric | Value (Random Forest) |
-|--------|-----------------------|
-| Accuracy | 0.714 |
-| Precision | 0.654 |
-| Recall | 0.516 |
-| F1-Score | 0.577 |
-| ROC-AUC | 0.761 |
-
-💡 **Insight:** High precision with moderate recall shows the model predicts the positive class correctly but misses some completions; ROC-AUC 0.76 indicates good overall discriminative ability. 🎯
-
----
-
-### 2️⃣9️⃣ Evaluate regression models with MAE, RMSE and R² Score
-
-**Output:** Random Forest Regressor — MAE 7.99 · RMSE 10.00 · R² 0.463
-
-💡 **Insight:** Low MAE and RMSE with a high R² shows strong generalisation and the ability to capture non-linear patterns in student data. 📊
-
----
-
-### 3️⃣0️⃣ Compare all ensemble techniques and identify the best model for each task
-
-| Model | Accuracy (Classification) | R² (Regression) |
-|-------|---------------------------|-----------------|
-| **Voting (hard)** | **0.732** 🏆 | — |
-| Gradient Boosting | 0.723 | **0.485** 🏆 |
-| AdaBoost | 0.716 | 0.407 |
-| Random Forest | 0.714 | 0.463 |
-| LightGBM | 0.711 | 0.464 |
-| Stacking | 0.708 | 0.451 |
-| Bagging | 0.699 | 0.456 |
-| XGBoost | 0.680 | 0.389 |
-
-💡 **Insight:** Different ensemble strategies are optimal for each task — the **Voting Classifier** wins classification by combining diverse classifiers through majority vote, while **Gradient Boosting** wins regression by sequentially reducing residual errors. 🥇
+🎯 Insight: Final comparison shows Voting Classifier as best classification model with 0.7317 accuracy and Gradient Boosting as best regression model with R2 0.4854. Voting excels by combining diverse classifiers through majority vote, while Gradient Boosting gives best regression performance by sequentially reducing residual errors. This shows different ensemble strategies are optimal for classification vs regression on this dataset.
 
 ---
 
 ## 📂 Project Workflow
 
-1. **Theory (Part A)** → Ensemble learning, bagging vs boosting vs voting, bias–variance trade-off, stacking, AdaBoost / Gradient Boosting / LightGBM / XGBoost
-2. **Dataset Understanding** → Overview, missing values, features and dual targets
-3. **Preprocessing** → Median imputation + one-hot encoding + leakage-free scaling
-4. **Train/Test Split** → 80/20 split (4,160 / 1,040 students) for both tasks
-5. **Bagging** → Bagging Classifier & Regressor, comparison with a single decision tree
-6. **Boosting** → AdaBoost, Gradient Boosting, LightGBM and XGBoost with tuning analysis
-7. **Voting & Stacking** → Hard vs soft voting, stacking with meta-learners
-8. **Model Evaluation** → Accuracy, Precision, Recall, F1, ROC-AUC, MAE, RMSE and R²
-9. **Final Report** → Bagging vs boosting impact, boosting comparison, deployment recommendation
-
----
-
-## 📈 Results & Insights
-
-- ✅ **Eight models** built and compared — Bagging, AdaBoost, Gradient Boosting, LightGBM, XGBoost, Random Forest, Voting and Stacking
-- ✅ **Voting Classifier (hard)** is the best classification model — accuracy **73.2%**
-- ✅ **Gradient Boosting** is the best regression model — R² **0.485**, MAE 7.85, RMSE 9.81
-- ✅ **Bagging beats a single tree** (0.699 vs 0.645) by reducing variance; boosting mainly reduces bias
-- ✅ **Not every booster beats bagging** — AdaBoost, Gradient Boosting and LightGBM do; XGBoost (untuned) does not
-- ✅ **LightGBM trains in under half a second** with near-Gradient-Boosting accuracy
-- ✅ **Recommendation:** deploy the hard Voting Classifier for completion prediction and the Gradient Boosting Regressor for score prediction; support teachers' decisions rather than replace them
-
----
-
-## 📌 Expected Outcomes
-
-- Understand **ensemble learning** and how bagging, boosting, voting and stacking differ
-- Apply the **bias–variance trade-off** to explain why ensembles outperform single models
-- Build and tune **bagging ensembles and four boosting algorithms** for both classification and regression
-- Evaluate models with **accuracy, precision, recall, F1, ROC-AUC, MAE, RMSE and R²**
-- Compare **variance-reducing, bias-reducing and meta-learning** strategies and explain the trade-offs
-- Select a final model per task and write a **deployment recommendation**
+1. Theory (Part A) → Ensemble learning, bagging vs boosting vs voting, bias–variance trade-off, stacking, AdaBoost / Gradient Boosting / LightGBM / XGBoost
+2. Dataset Understanding → Overview, missing values, features and dual targets
+3. Preprocessing → Median imputation + one-hot encoding + leakage-free scaling
+4. Train/Test Split → 80/20 split (4,160 / 1,040 students) for both tasks
+5. Bagging → Bagging Classifier & Regressor, comparison with a single decision tree
+6. Boosting → AdaBoost, Gradient Boosting, LightGBM and XGBoost with tuning analysis
+7. Voting & Stacking → Hard vs soft voting, stacking with meta-learners
+8. Model Evaluation → Accuracy, Precision, Recall, F1, ROC-AUC, MAE, RMSE and R2
+9. Final Report → Bagging vs boosting impact, boosting comparison, deployment recommendation
 
 ---
 
@@ -369,21 +554,9 @@ jupyter notebook Smart_Outcome_Predictor_Fixed_1.ipynb
 
 ---
 
-## 🚀 Future Scope
-
-- [ ] Tune XGBoost's `learning_rate`, `max_depth` and `n_estimators` to close the gap with Gradient Boosting
-- [ ] Confirm the results with cross-validation instead of a single train-test split
-- [ ] Calibrate probabilities before soft voting, then re-test hard vs soft voting
-- [ ] Engineer engagement features (e.g. sessions per week, quiz score trends)
-- [ ] Handle the 62/38 class imbalance with class weights or resampling
-- [ ] Tune the classification threshold to balance missed completions against false alarms
-- [ ] Deploy the models behind a simple dashboard for teachers with prediction explanations
-
----
-
 ## 🙏 Thank You
 
 Thank you for taking the time to explore this project!
 Your feedback, suggestions, and contributions are always welcome.
 
-⭐ If you found this project helpful, don't forget to **star the repository** and share it with others.
+⭐ If you found this project helpful, don't forget to star the repository and share it with others.
