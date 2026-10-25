@@ -35,18 +35,18 @@ The task is to prepare the data, build bagging models, implement and analyse Ada
 
 <div>
 
-<img src="https://img.shields.io/badge/Python-4B1D7F?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter%20Notebook-5B21B6?style=for-the-badge&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-6D28D9?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-7C3AED?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-8B5CF6?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-7C2D92?style=for-the-badge&logo=matplotlib&logoColor=white"/>
-<img src="https://img.shields.io/badge/XGBoost-6A3A8A?style=for-the-badge&logo=xgboost&logoColor=white"/>
-<img src="https://img.shields.io/badge/LightGBM-9D4EDD?style=for-the-badge&logo=lightgbm&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bagging-581C87?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Boosting-7B2CBF?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Voting-9333EA?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Stacking-6A0DAD?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-E9D5FF?style=for-the-badge&logo=python&logoColor=4B1D7F"/>
+<img src="https://img.shields.io/badge/Jupyter%20Notebook-D8B4FE?style=for-the-badge&logo=jupyter&logoColor=4B1D7F"/>
+<img src="https://img.shields.io/badge/Pandas-C4B5FD?style=for-the-badge&logo=pandas&logoColor=4B1D7F"/>
+<img src="https://img.shields.io/badge/NumPy-D6BCFA?style=for-the-badge&logo=numpy&logoColor=4B1D7F"/>
+<img src="https://img.shields.io/badge/scikit--learn-DDD6FE?style=for-the-badge&logo=scikitlearn&logoColor=4B1D7F"/>
+<img src="https://img.shields.io/badge/Matplotlib-E1BEE7?style=for-the-badge&logo=matplotlib&logoColor=4B1D7F"/>
+<img src="https://img.shields.io/badge/XGBoost-D1C4E9?style=for-the-badge&logo=xgboost&logoColor=4B1D7F"/>
+<img src="https://img.shields.io/badge/LightGBM-B39DDB?style=for-the-badge&logo=lightgbm&logoColor=4B1D7F"/>
+<img src="https://img.shields.io/badge/Bagging-CE93D8?style=for-the-badge&logoColor=4B1D7F"/>
+<img src="https://img.shields.io/badge/Boosting-C5A3FF?style=for-the-badge&logoColor=4B1D7F"/>
+<img src="https://img.shields.io/badge/Voting-EDE9FE?style=for-the-badge&logoColor=4B1D7F"/>
+<img src="https://img.shields.io/badge/Stacking-F3E8FF?style=for-the-badge&logoColor=4B1D7F"/>
 
 </div>
 
@@ -54,13 +54,13 @@ The task is to prepare the data, build bagging models, implement and analyse Ada
 
 ## 🎬 Project Demo
 
-[[Watch Demo](https://img.shields.io/badge/WATCH%20DEMO-ADD%20YOUR%20LINK-6D28D9?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=D8B4FE&color=6D28D9)](https://drive.google.com/file/d/1oD4nGN8-yN_oPSTUD4Knz48nX6V0lk5o/view?usp=sharing)
+[![Watch Demo](https://img.shields.io/badge/WATCH%20DEMO-ADD%20YOUR%20LINK-6D28D9?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=D8B4FE)](https://drive.google.com/file/d/1oD4nGN8-yN_oPSTUD4Knz48nX6V0lk5o/view?usp=sharing)
 
 ---
 
 ## 🌐 Live Demo
 
-[[Live App](https://img.shields.io/badge/LIVE%20DEMO-OPEN%20APP-5B21B6?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=E9D5FF&color=5B21B6)](https://messageintelligencesystem-fny7qy4goeazapplv84pxzk.streamlit.app/)
+[![Live App](https://img.shields.io/badge/LIVE%20DEMO-OPEN%20APP-5B21B6?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=E9D5FF)](https://messageintelligencesystem-fny7qy4goeazapplv84pxzk.streamlit.app/)
 
 ---
 
