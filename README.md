@@ -35,26 +35,36 @@ The task is to prepare the data, build bagging models, implement and analyse Ada
 
 <div>
 
-<img src="https://img.shields.io/badge/Python-70499A?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter%20Notebook-white?style=for-the-badge&logo=jupyter&logoColor=70499A"/>
-<img src="https://img.shields.io/badge/Pandas-70499A?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-white?style=for-the-badge&logo=numpy&logoColor=70499A"/>
-<img src="https://img.shields.io/badge/scikit--learn-70499A?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-white?style=for-the-badge&logo=matplotlib&logoColor=70499A"/>
-<img src="https://img.shields.io/badge/XGBoost-70499A?style=for-the-badge&logo=xgboost&logoColor=white"/>
-<img src="https://img.shields.io/badge/LightGBM-white?style=for-the-badge&logo=lightgbm&logoColor=70499A"/>
-<img src="https://img.shields.io/badge/Bagging-70499A?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Boosting-white?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Voting-70499A?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Stacking-white?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Python-4B1D7F?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter%20Notebook-5B21B6?style=for-the-badge&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-6D28D9?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-7C3AED?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-8B5CF6?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-7C2D92?style=for-the-badge&logo=matplotlib&logoColor=white"/>
+<img src="https://img.shields.io/badge/XGBoost-6A3A8A?style=for-the-badge&logo=xgboost&logoColor=white"/>
+<img src="https://img.shields.io/badge/LightGBM-9D4EDD?style=for-the-badge&logo=lightgbm&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bagging-581C87?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Boosting-A78BFA?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Voting-9333EA?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Stacking-C084FC?style=for-the-badge"/>
 
 </div>
 
 ---
 
+
+
 ## 🎬 Project Demo
 
-[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-Add%20Your%20Link-blue?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1oD4nGN8-yN_oPSTUD4Knz48nX6V0lk5o/view?usp=sharing)
+[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-Add%20Your%20Link-6D28D9?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1oD4nGN8-yN_oPSTUD4Knz48nX6V0lk5o/view?usp=sharing)
+
+📹 Add a link to your project walkthrough video here.
+
+---
+
+## 🌐 Live Demo
+
+[![Live App](https://img.shields.io/badge/🚀_Live_Demo-Open_App-5B21B6?style=for-the-badge&logo=streamlit&logoColor=white)](https://messageintelligencesystem-fny7qy4goeazapplv84pxzk.streamlit.app/)
 
 📹 Add a link to your project walkthrough video here.
 
