@@ -31,7 +31,7 @@ The task is to prepare the data, build bagging models, implement and analyse Ada
 
 ---
 
-## 🛠️ Tools Used
+## 🛠 Tools Used
 
 <div>
 
@@ -43,30 +43,24 @@ The task is to prepare the data, build bagging models, implement and analyse Ada
 <img src="https://img.shields.io/badge/Matplotlib-7C2D92?style=for-the-badge&logo=matplotlib&logoColor=white"/>
 <img src="https://img.shields.io/badge/XGBoost-6A3A8A?style=for-the-badge&logo=xgboost&logoColor=white"/>
 <img src="https://img.shields.io/badge/LightGBM-9D4EDD?style=for-the-badge&logo=lightgbm&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bagging-581C87?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Boosting-A78BFA?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Voting-9333EA?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Stacking-C084FC?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Bagging-581C87?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Boosting-7B2CBF?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Voting-9333EA?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Stacking-6A0DAD?style=for-the-badge&logoColor=white"/>
 
 </div>
 
 ---
 
-
-
 ## 🎬 Project Demo
 
 [![Watch Demo](https://img.shields.io/badge/Watch%20Demo-Add%20Your%20Link-6D28D9?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1oD4nGN8-yN_oPSTUD4Knz48nX6V0lk5o/view?usp=sharing)
-
-📹 Add a link to your project walkthrough video here.
 
 ---
 
 ## 🌐 Live Demo
 
 [![Live App](https://img.shields.io/badge/🚀_Live_Demo-Open_App-5B21B6?style=for-the-badge&logo=streamlit&logoColor=white)](https://messageintelligencesystem-fny7qy4goeazapplv84pxzk.streamlit.app/)
-
-📹 Add a link to your project walkthrough video here.
 
 ---
 
