@@ -54,14 +54,13 @@ The task is to prepare the data, build bagging models, implement and analyse Ada
 
 ## 🎬 Project Demo
 
-[![Watch Demo](https://img.shields.io/badge/WATCH%20DEMO-ADD%20YOUR%20LINK-4B1D7F?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=B39DDB)](https://drive.google.com/file/d/1oD4nGN8-yN_oPSTUD4Knz48nX6V0lk5o/view?usp=sharing)
+[![Watch Demo](https://img.shields.io/badge/WATCH%20DEMO-ADD%20YOUR%20LINK-C4B5FD?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=4B1D7F)](https://drive.google.com/file/d/1oD4nGN8-yN_oPSTUD4Knz48nX6V0lk5o/view?usp=sharing)
 
 ---
 
 ## 🌐 Live Demo
 
-[![Live App](https://img.shields.io/badge/LIVE%20DEMO-OPEN%20APP-5B21B6?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=C4B5FD)](https://messageintelligencesystem-fny7qy4goeazapplv84pxzk.streamlit.app/)
-
+[![Live Demo](https://img.shields.io/badge/LIVE%20DEMO-OPEN%20APP-D8B4FE?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=5B21B6)](https://messageintelligencesystem-fny7qy4goeazapplv84pxzk.streamlit.app/)
 ---
 
 ### 🧬 Dataset Structure — Smart Outcome Predictor Dataset
