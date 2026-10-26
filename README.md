@@ -501,6 +501,11 @@ best_reg = max(reg_results, key=reg_results.get)
 
 ---
 
+<img width="960" height="540" alt="Screenshot 2026-10-26 074256" src="https://github.com/user-attachments/assets/e0d1a730-d0b7-4b9d-904a-448b99c47694" />
+
+
+---
+
 ## 📂 Project Workflow
 
 1. Theory (Part A) → Ensemble learning, bagging vs boosting vs voting, bias–variance trade-off, stacking, AdaBoost / Gradient Boosting / LightGBM / XGBoost
