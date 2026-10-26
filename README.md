@@ -3,6 +3,8 @@
 <img width="1200" height="520" alt="679098054-2f0a9f1e-daaa-4daa-b4fd-aba6f942eac1" src="https://github.com/user-attachments/assets/22a08776-0809-490d-8ba3-2aea6c4909ef" />
 
 
+---
+
 This project is built on ensemble learning in supervised machine learning. It covers bagging, boosting, voting and stacking, compares how each family of models combines many learners into one strong predictor, and applies all of them to a real dataset of online learning platform students to predict both course completion and final scores.
 
 ---
