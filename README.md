@@ -13,23 +13,25 @@ This project is built on ensemble learning in supervised machine learning. It co
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="50%">
 
 You are working with an online learning platform that holds a dataset of **5,200 students**. The platform wants a **Smart Outcome Predictor** that can predict, from student demographics, engagement and course attributes:
 
 1. **Classification** — whether a student will complete the course (completion_status: 1 = completed, 0 = not completed)
+
 2. **Regression** — the student's final score (final_score, 35.2–100.0)
 
 The task is to prepare the data, build bagging models, implement and analyse **AdaBoost, Gradient Boosting, LightGBM and XGBoost**, evaluate **voting and stacking ensembles**, measure everything with **accuracy, precision, recall, F1, ROC-AUC, MAE, RMSE and R2**, and identify the best performing model for each task.
 
 </td>
-<td width="40%" valign="top" align="right">
+<td width="50%">
 
-<img src="https://github.com/user-attachments/assets/ecca4c77-e990-43b1-8452-ec82ae083a1a" width="100%" alt="Smart Outcome Predictor - Dual Task Overview" />
+<img src="https://github.com/user-attachments/assets/ecca4c77-e990-43b1-8452-ec82ae083a1a" width="100%">
 
 </td>
 </tr>
 </table>
+
 
 ---
 
