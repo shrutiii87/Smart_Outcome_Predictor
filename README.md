@@ -26,7 +26,7 @@ The task is to prepare the data, build bagging models, implement and analyse **A
 </td>
 <td width="50%" valign="top">
 
-<img width="1344" height="1792" alt="861826779_1049354808121308_7283907018722529921_n" src="https://github.com/user-attachments/assets/75fc15ae-f2d2-4972-96e2-cbed59f95a81" />
+<img width="1344" height="1300" alt="861826779_1049354808121308_7283907018722529921_n" src="https://github.com/user-attachments/assets/75fc15ae-f2d2-4972-96e2-cbed59f95a81" />
 
 
 </td>
