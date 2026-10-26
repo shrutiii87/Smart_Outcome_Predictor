@@ -96,6 +96,11 @@ The task is to prepare the data, build bagging models, implement and analyse Ada
 
 ---
 
+<img width="2048" height="1152" alt="861255692_1455238460996258_2734771313755867768_n" src="https://github.com/user-attachments/assets/c6afa8d6-7b30-4ec2-b094-4feec7574298" />
+
+
+---
+
 ## 🧪 Part B: Dataset Understanding & Preparation
 
 <img width="1200" height="470" alt="679111918-b7450104-e36c-4117-9e1f-2acc3df738ee" src="https://github.com/user-attachments/assets/59f5e2a2-e12b-478b-9171-d172d8856fce" />
