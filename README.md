@@ -11,9 +11,6 @@ This project is built on ensemble learning in supervised machine learning. It co
 
 ## 📄 Problem Statement
 
-
-## 📄 Problem Statement
-
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -29,7 +26,7 @@ The task is to prepare the data, build bagging models, implement and analyse **A
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/problem_statement_tall.png" width="100%">
+<img src="https://github.com/user-attachments/assets/ecca4c77-e990-43b1-8452-ec82ae083a1a" width="100%">
 
 </td>
 </tr>
