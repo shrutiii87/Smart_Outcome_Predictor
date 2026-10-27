@@ -1,4 +1,4 @@
-<img width="1200" height="520" alt="Untitled video (5)" src="https://github.com/user-attachments/assets/617d2fc0-2dda-4a0a-b3d4-05bd0068a140" />
+<img width="1200" height="650" alt="Untitled video (5)" src="https://github.com/user-attachments/assets/617d2fc0-2dda-4a0a-b3d4-05bd0068a140" />
 
 
 # 🎓 Smart Outcome Predictor
