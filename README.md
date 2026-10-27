@@ -1,8 +1,6 @@
-<img width="900" height="450" alt="ezgif-61e594d858a7193f" src="https://github.com/user-attachments/assets/2f9404ea-ec70-47fe-afd1-48e694177134" />
-
-
-
 # 🎓 Smart Outcome Predictor
+
+<img width="900" height="450" alt="ezgif-61e594d858a7193f" src="https://github.com/user-attachments/assets/2f9404ea-ec70-47fe-afd1-48e694177134" />
 
 ---
 
