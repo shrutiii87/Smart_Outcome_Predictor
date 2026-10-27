@@ -1,5 +1,5 @@
 
-<img width="640" height="360" alt="Untitled video (1)" src="https://github.com/user-attachments/assets/e91722eb-953e-4f3a-83e9-3e2dbafcfdf9" />
+<img width="1200" height="520" alt="Untitled video (1)" src="https://github.com/user-attachments/assets/e91722eb-953e-4f3a-83e9-3e2dbafcfdf9" />
 
 
 
