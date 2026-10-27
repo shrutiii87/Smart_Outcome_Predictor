@@ -1,3 +1,9 @@
+
+<img width="640" height="360" alt="Untitled video (1)" src="https://github.com/user-attachments/assets/e91722eb-953e-4f3a-83e9-3e2dbafcfdf9" />
+
+
+
+
 # 🎓 Smart Outcome Predictor
 
 <img width="1200" height="520" alt="679098054-2f0a9f1e-daaa-4daa-b4fd-aba6f942eac1" src="https://github.com/user-attachments/assets/22a08776-0809-490d-8ba3-2aea6c4909ef" />
@@ -109,11 +115,6 @@ The task is to prepare the data, build bagging models, implement and analyse **A
 | `attendance_rate` | Float | Attendance rate | Model feature — has missing values |
 | `completion_status` | Integer | 1 = Completed, 0 = Not completed | 🎯 Classification target (62.5% not completed / 37.5% completed) |
 | `final_score` | Float | Final course score (35.2–100.0, mean ≈ 74.8) | 🎯 Regression target |
-
----
-
-<img width="2048" height="1152" alt="861255692_1455238460996258_2734771313755867768_n" src="https://github.com/user-attachments/assets/c6afa8d6-7b30-4ec2-b094-4feec7574298" />
-
 
 ---
 
